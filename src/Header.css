@@ -1,0 +1,29 @@
+.header{
+    display:grid;
+    padding: 40px;
+    font-size: 1em;
+}
+#name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2em;
+    color: white;
+}
+
+#d1 {
+    font-family: Bungee-Regular;
+}
+#update {
+    margin-top: 10px;
+    margin-left: 10px;
+    color: white;
+    font-size: 1.3em;
+}
+
+#Date {
+    margin-top: 8px;
+    color: white;
+    margin-left: 10px;
+    font-size: 0.8em;
+}

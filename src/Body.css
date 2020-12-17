@@ -1,0 +1,40 @@
+.Body {
+    display: grid;
+    margin: 0;
+    justify-content: center;
+}
+
+.body_header {
+    margin-top: -45px;
+    display: flex;
+    height: 8vh;
+    text-align: center ;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: -1px 4px 15px -6px rgba(0, 0, 0, 0.7);
+    width: 50vw;
+    justify-content: space-between;
+    padding: 20px 5px;
+}
+
+img {
+    width :6vw;
+    height: 6vh;
+}
+
+#curency , #coin , #gold{
+    flex: 1;
+    align-items: center;
+    text-align: center;
+    border-right: 1px solid rgba(100, 100, 100, 0.24);
+}
+
+#gold {
+    border-right: none;
+    margin-left: 20px;
+}
+.body_main {
+    margin-top: 20px;
+    place-items: center;
+}
+
