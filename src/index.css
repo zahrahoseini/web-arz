@@ -14,3 +14,8 @@ body {
   font-family: 'Bungee-Regular';
   src: local('Bungee-Regular') , url(./fonts/Bungee-Regular.ttf) format('truetype');
 }
+
+@font-face{
+  font-family: 'MerriweatherSans-Bold';
+  src: local('MerriweatherSans-Bold') , url(./fonts/MerriweatherSans-Bold.ttf) format('truetype');
+}

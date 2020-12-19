@@ -14,19 +14,25 @@
     box-shadow: -1px 4px 15px -6px rgba(0, 0, 0, 0.7);
     width: 50vw;
     justify-content: space-between;
-    padding: 20px 5px;
+    padding: 15px 5px;
+    align-items: center;
+}
+
+#h_img {
+    width :5vw;
+    height: 5vh;
 }
 
 img {
-    width :6vw;
-    height: 6vh;
+    width :4vw;
+    height: 4vh;
 }
 
 #curency , #coin , #gold{
     flex: 1;
     align-items: center;
     text-align: center;
-    border-right: 1px solid rgba(100, 100, 100, 0.24);
+    border-right: 1px solid rgba(100, 100, 100, 0.322);
 }
 
 #gold {
@@ -34,7 +40,36 @@ img {
     margin-left: 20px;
 }
 .body_main {
-    margin-top: 20px;
+    display: grid;
+    margin-top:50px;
     place-items: center;
+    justify-content: center;
+    font-family:MerriweatherSans-Bold;
 }
 
+ul{
+    list-style-type: none;
+    margin-bottom:30px;
+
+}
+
+#style{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    box-shadow: -1px 4px 15px -6px rgba(0, 0, 0, 0.7);
+    width: 45vw;
+    margin-left:-35px;
+    padding:20px;
+}
+
+#tittle_list{
+    margin-bottom: 20px;
+    font-size: small;
+    color:rgba(0, 0, 0, 0.589);
+}
+
+#flag {
+    padding :10px;
+    border-right: 1px solid rgba(105, 105, 105, 0.356);
+}

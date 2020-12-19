@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './fonts/Bungee-Regular.ttf';
-
+import './fonts/MerriweatherSans-Bold.ttf';
 ReactDOM.render(
   <React.StrictMode>
     <App />
