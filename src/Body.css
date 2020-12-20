@@ -63,6 +63,10 @@ ul{
     padding:20px;
 }
 
+#style:hover{
+    background-color: lightblue;
+}
+
 #tittle_list{
     margin-bottom: 20px;
     font-size: small;
@@ -72,4 +76,36 @@ ul{
 #flag {
     padding :10px;
     border-right: 1px solid rgba(105, 105, 105, 0.356);
+}
+.body_footer {
+    display: grid;
+    height: 3vh;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family:MerriweatherSans-Bold;
+    color: rgba(0, 0, 0, 0.568);
+}
+
+#pro {
+    color: rgb(0, 92, 167);
+    text-shadow: -1px 4px 4px rgba(0, 0, 0, 0.493);
+}
+@media screen and (max-width : 600px) {
+    .body_header {
+        width: 80vw;
+    }
+    #style {
+        width: 70vw;
+        padding: 10px;
+    }
+    #h_img {
+        width :6vw;
+        height: 6vh;
+    }
+    
+    img {
+        width :5vw;
+        height: 5vh;
+    }
+
 }

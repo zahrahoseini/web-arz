@@ -6,7 +6,7 @@
   margin-top: 0;
 }
 
-.app_header{
+.app_header {
   background-image: url('./image/head.png');
   background-position: top;
   background-size: cover;
@@ -23,4 +23,19 @@
   width: 100vw;
   max-width: 1200px;
  
+}
+
+.app_footer {
+  background-image: url('./image/head.png');
+  height: 10vh;
+  width: 100vw;
+  max-width: 1200px;
+  bottom: 0;
+}
+@media screen and (max-width : 900px)
+{
+  .App {
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
 }

@@ -41,21 +41,23 @@ function Body() {
       <div className="body_header">
 
        <div id="coin"> 
-       <img id="h_img" src={coin} />
+       <a href="#seke"><img id="h_img" src={coin} /></a>
        </div>
 
        <div id="curency"> 
-        <img id="h_img" src={money} />
+       <a href="#cur"><img id="h_img" src={money} /></a>
        </div>
 
        <div id="gold"> 
-       <img id="h_img" src={gold} />
+       <a href="#tala"><img id="h_img" src={gold} /></a>
       </div>
 
       </div>
 
       <div className="body_main">
-        <div><p id="tittle_list">CURRENCY </p>
+
+
+        <div id="cur"><p id="tittle_list">CURRENCY </p>
         <ul>
           <li id="style">
             <div id="flag">
@@ -201,7 +203,7 @@ function Body() {
         </ul>
         </div>
 
-        <div><p id="tittle_list">COIN </p>
+        <div id="seke"><p id="tittle_list">COIN </p>
         <ul>
           <li id="style">
           <div id="flag">
@@ -226,7 +228,7 @@ function Body() {
         </ul>
         </div>
 
-        <div><p id="tittle_list">GOLD </p>
+        <div id="tala"><p id="tittle_list">GOLD </p>
         <ul>
           <li id="style">
           <div id="flag">
@@ -251,7 +253,13 @@ function Body() {
         </ul>
         </div>
       </div>
+   
+      <div className="body_footer">
+      <p id="pro"> Producted By </p>
+      Zahra Hoseini and Faeze Ghobadpanah
+      </div>
     </div>
+    
   );
 }
 
