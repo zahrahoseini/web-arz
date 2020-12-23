@@ -19,7 +19,7 @@ function Header() {
         <div className="header">
             <div id="name"> 
             <p id="d1">web arz</p>
-            <div>
+            <div>                
                 <MenuIcon />
             </div>
             </div>
@@ -28,6 +28,7 @@ function Header() {
                 <p id="Dat">{dataBuilder(new Date())}</p>
             </div>
         </div>
+        
     )
 }
 

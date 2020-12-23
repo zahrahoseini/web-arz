@@ -49,7 +49,6 @@ export default function Body( ) {
           console.log(result);          
         })
       },[])
-
  
       const update = evt => {
         if((evt)){
